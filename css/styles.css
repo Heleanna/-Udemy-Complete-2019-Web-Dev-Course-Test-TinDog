@@ -11,6 +11,13 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 h3 {
   font-family: "Montserrat";
   font-weight: 900;
@@ -63,11 +70,25 @@ p {
   font-size: 1.2rem;
 }
 
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
 .title-image {
   width: 60%;
   transform: rotate(25deg);
 }
 
+.carousel-item {
+  padding: 7% 15%;
+}
 
 
 /* ------------------------ ID -------------------------*/
@@ -79,4 +100,16 @@ p {
 
 #features {
   padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
 }
