@@ -79,6 +79,10 @@ p {
   padding: 3% 2%;
 }
 
+.social-icon {
+  margin: 20px 10px;
+}
+
 .testimonial-image {
   width: 10%;
   border-radius: 100%;
@@ -96,8 +100,22 @@ p {
   padding: 7% 15%;
 }
 
+.cta-heading {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
 
 /* ------------------------ ID -------------------------*/
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
 
 #title {
   background-color: #ff4c68;
@@ -125,4 +143,20 @@ p {
 #pricing {
   padding: 100px;
   text-align: center;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
